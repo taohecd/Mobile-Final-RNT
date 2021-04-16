@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RNT-Bluetooth</string>
+    <string name="temperature_humidity_view">Temperature &amp; Humidity:</string>
+    <string name="threshold_button">Set Threshold</string>
+    <string name="disconnect_button">Disconnect Pairing</string>
+    <string name="connecting">Connecting...</string>
+    <string name="please_wait">Please Wait!</string>
+    <string name="failed_to_connect">Connection Failed. Is it a SPP Bluetooth? Try again.</string>
+    <string name="connection_success">Connected.</string>
+    <string name="error_msg">Error :(</string>
+</resources>
