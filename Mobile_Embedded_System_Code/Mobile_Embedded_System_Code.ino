@@ -10,7 +10,7 @@ BluetoothSerial SerialBT;
 const int LEDpin = 32;
 
 #define DHTTYPE DHT11
-DHT dht11(DHTPIN, DHTTYPE);
+DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
   Serial.begin(115200);
@@ -24,6 +24,7 @@ int thresholdValue = 100;
 int onOff = 0;
 bool ALARM_ON = false;
 long timer1 = millis();
+long timer2;
 void loop() {
   float h = dht.readHumidity();
   float t = dht.readTemperature();
